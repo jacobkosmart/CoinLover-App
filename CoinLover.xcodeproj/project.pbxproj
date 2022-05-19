@@ -11,14 +11,16 @@
 		81E725A7283606E800C1B98B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E725A6283606E800C1B98B /* ContentView.swift */; };
 		81E725A9283606EA00C1B98B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81E725A8283606EA00C1B98B /* Assets.xcassets */; };
 		81E725AC283606EA00C1B98B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81E725AB283606EA00C1B98B /* Preview Assets.xcassets */; };
+		81E725B42836116200C1B98B /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E725B32836116200C1B98B /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		81E725A1283606E800C1B98B /* CoinLover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinLover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E725A1283606E800C1B98B /* Coin Lover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coin Lover.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81E725A4283606E800C1B98B /* CoinLoverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinLoverApp.swift; sourceTree = "<group>"; };
 		81E725A6283606E800C1B98B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		81E725A8283606EA00C1B98B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81E725AB283606EA00C1B98B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81E725B32836116200C1B98B /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +45,7 @@
 		81E725A2283606E800C1B98B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81E725A1283606E800C1B98B /* CoinLover.app */,
+				81E725A1283606E800C1B98B /* Coin Lover.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				81E725A4283606E800C1B98B /* CoinLoverApp.swift */,
+				81E725B22836114900C1B98B /* Extension */,
 				81E725A6283606E800C1B98B /* ContentView.swift */,
 				81E725A8283606EA00C1B98B /* Assets.xcassets */,
 				81E725AA283606EA00C1B98B /* Preview Content */,
@@ -65,6 +68,14 @@
 				81E725AB283606EA00C1B98B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		81E725B22836114900C1B98B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				81E725B32836116200C1B98B /* Color.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +95,7 @@
 			);
 			name = CoinLover;
 			productName = CoinLover;
-			productReference = 81E725A1283606E800C1B98B /* CoinLover.app */;
+			productReference = 81E725A1283606E800C1B98B /* Coin Lover.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -139,6 +150,7 @@
 			files = (
 				81E725A7283606E800C1B98B /* ContentView.swift in Sources */,
 				81E725A5283606E800C1B98B /* CoinLoverApp.swift in Sources */,
+				81E725B42836116200C1B98B /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +208,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -251,7 +263,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -275,6 +287,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -283,7 +296,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = info.jacobko.CoinLover;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Coin Lover";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,6 +317,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,7 +326,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = info.jacobko.CoinLover;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Coin Lover";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
