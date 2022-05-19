@@ -34,7 +34,7 @@
 
 ### 🔷 Check core codes in details
 
-#### 👉 [1.custom color theme]()
+#### 👉 [1.custom color theme](https://github.com/jacobkosmart/CoinLover-App/blob/main/MD/1.custom%20color%20theme.md)
 
 #### 👉 [2.Creating HomeView and a navigation header]()
 
@@ -84,7 +84,7 @@
 
 #### 👉 [25.Adding final optimizations]()
 
-#### 👉 []()
+#### 👉 [26.Update the Color Theme]()
 
 #### 👉 []()
 

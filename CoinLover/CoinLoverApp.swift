@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct CoinLoverApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
+	var body: some Scene {
+		WindowGroup {
+			NavigationView {
+				HomeView()
+					.navigationBarHidden(true)
+			} //: NAVIGATION
+		}
+	}
 }
