@@ -34,9 +34,9 @@
 
 ### 🔷 Check core codes in details
 
-#### 👉 [1.custom color theme](https://github.com/jacobkosmart/CoinLover-App/blob/main/MD/1.custom%20color%20theme.md)
+#### 👉 [1.custom color theme](https://github.com/jacobkosmart/CoinLover-App/blob/main/MD/01.custom%20color%20theme.md)
 
-#### 👉 [2.Creating HomeView and a navigation header]()
+#### 👉 [2.Creating HomeView and a navigation header](https://github.com/jacobkosmart/CoinLover-App/blob/main/MD/02.Creating%20HomeView%20and%20a%20navigation%20header.md)
 
 #### 👉 [3.Creating a Coin Model based on JSON response from an API]()
 
