@@ -77,6 +77,6 @@ extension CoinRowView {
 					: Color.theme.red
 				)
 		} //: VSTACK
-		.frame(width: UIScreen.main.bounds.width / 3.5, alignment: .trailing)
+		.frame(width: UIScreen.main.bounds.width / 3.0, alignment: .trailing)
 	}
 }

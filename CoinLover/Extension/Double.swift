@@ -52,7 +52,7 @@ extension Double {
 		formatter.locale = Locale(identifier: "ko_KR") // Korea
 		formatter.currencyCode = "krw" // change currency
 		formatter.currencySymbol = "₩" // change currency symbol
-		formatter.minimumFractionDigits = 0
+		formatter.minimumFractionDigits = 2
 		return formatter
 	}
 	
