@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81D201DD283B565700CDD53B /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D201DC283B565700CDD53B /* NetworkingManager.swift */; };
 		81E725A5283606E800C1B98B /* CoinLoverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E725A4283606E800C1B98B /* CoinLoverApp.swift */; };
 		81E725A7283606E800C1B98B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E725A6283606E800C1B98B /* ContentView.swift */; };
 		81E725A9283606EA00C1B98B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81E725A8283606EA00C1B98B /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		81D201DC283B565700CDD53B /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		81E725A1283606E800C1B98B /* Coin Lover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coin Lover.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81E725A4283606E800C1B98B /* CoinLoverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinLoverApp.swift; sourceTree = "<group>"; };
 		81E725A6283606E800C1B98B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81D201DB283B562600CDD53B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				81D201DC283B565700CDD53B /* NetworkingManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		81E72598283606E800C1B98B = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				81E725A4283606E800C1B98B /* CoinLoverApp.swift */,
+				81D201DB283B562600CDD53B /* Utilities */,
 				81E725C12836272C00C1B98B /* Models */,
 				81E725B22836114900C1B98B /* Extension */,
 				81E725CF2837611400C1B98B /* Services */,
@@ -247,6 +258,7 @@
 				81E725A5283606E800C1B98B /* CoinLoverApp.swift in Sources */,
 				81E725BE283617AC00C1B98B /* CircleButtonView.swift in Sources */,
 				81E725B42836116200C1B98B /* Color.swift in Sources */,
+				81D201DD283B565700CDD53B /* NetworkingManager.swift in Sources */,
 				81E725C028361BAF00C1B98B /* CircleButtonAnimationView.swift in Sources */,
 				81E725C928371EB900C1B98B /* PreviewProvider.swift in Sources */,
 				81E725CB2837232300C1B98B /* Double.swift in Sources */,
